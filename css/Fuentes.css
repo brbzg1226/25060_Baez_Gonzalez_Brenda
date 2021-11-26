@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+p#f1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color:#FFFFFF;
+    background-color: #000000;
+}
+p#a1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px;
+    color:#FFFFFF;
+    background-color: #000000;
+    
+}
+p#f2{
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 50px;
+    color:#FFFFFF;
+    background-color: #B9B9B9;
+}
+p#a2{
+    font-family: 'Kaisei Tokumin', serif;
+    font-weight: italic,400;
+    text-align: center;
+    font-size: 20px;
+    color:#FFFFFF;
+    background-color: #B9B9B9;
+    
+}
+p#f3{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 50px;
+    color:#000000;
+    background-color: #FFF000;
+}
+p#a3{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: italic,400;
+    text-align: center;
+    font-size: 20px;
+    color:#000000;
+    background-color:#FFF000;
+}
+p#f4{
+    text-align: center;
+    font-size: 50px;
+    color:#222222;
+    background-color: #DFE4CC;
+    @font-face { 
+    font-family: 'abril-fatface';
+    src: url("AbrilFatface-Regular.ttf");
+    }
+}
+    
+p#a4{
+    text-align: center;
+    font-size: 20px;
+    color:#222222;
+    background-color: #DFE4CC;
+    @font-face { 
+    font-family: 'abril-fatface';
+    src: url("AbrilFatface-Regular.ttf");
+    }
+}
+
+p#f5{
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: center;
+    font-size: 50px;
+    color:#000000;
+    background-color: #FFF000;
+}
+p#a5{
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: center;
+    font-size: 20px;
+    color:#000000;
+    background-color:#FFF000;}

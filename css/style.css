@@ -1,0 +1,239 @@
+@charset "utf-8";
+header {
+    background-color: #FFC2AD;
+    width: 80%;
+    color: #FEFEFE;
+    height: 100px;
+}
+header h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+header, nav, section, footer , main{
+    margin: 0 auto;
+    width: 80%;
+
+}
+nav {
+    height: 60px;
+    background-color: #322B2B;
+    color: #EBEBEB;
+}
+footer {
+    background-color: #322B2B;
+    color: #EBEBEB;
+    height: auto;
+}
+
+
+main {
+    background-color: #F9DEDF;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav ul {
+    height: 40px;
+
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+    height: 30px;
+}
+main section {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #FEFEFE;
+    height: auto;
+    border: 5px outset #FFC2AD;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+footer h5 {
+    text-align: center;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 20px;
+}
+main section h2 {
+    padding-top: px;
+    padding-right: px;
+    padding-left: px;
+    padding-bottom: 30px;
+    color: #FFC2AD;
+    font-style: normal;
+    font-size: x-large;
+    font-weight: 400;
+    font-family: abril-fatface;
+}
+#link-2 {
+}
+a:link{
+	color:#FFC2AD;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:visited{
+	color: #D8A696;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:active{
+	color:#F1E4E4;
+	text-decoration: none;
+	font-weight: bolder;
+}
+a:hover{
+	color:#C57475;
+	font-weight:bolder;
+	text-decoration: none;
+}
+.link-3 {
+}
+.link-4 {
+}
+.link-5 {
+}
+.pic-1 {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 19px solid #F9DEDF;
+    border-right: 3px solid #F9DEDF;
+    border-bottom: 3px solid #F9DEDF;
+    border-top: 3px solid #F9DEDF;
+}
+#pic-2 {
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img_flotante {
+    float: left;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 30%;
+}
+.pic-2 {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.parrafo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #474747;
+    font-style: normal;
+    font-size: small;
+    font-family: didact-gothic;
+    font-weight: 400;
+}
+.img_redodeada {
+    border-radius: 20px;
+}
+.img_redondeado2 {
+    border-radius: 30px 50px 200px 80px;
+}
+.img_redodeada3 {
+    border-radius: 50%;
+}
+.pic-3 {
+    display: inline-block;
+    margin-left: 5px;
+    width: 49%;
+}
+.img-blur {
+    filter: blur(2px);
+}
+.img-brillo {
+    filter: brightness(200%);
+}
+.img-contraste {
+    filter: contrast(250%);
+}
+.img-grises {
+    filter: grayscale(100%);
+}
+.img_neg {
+    filter: invert(150%);
+}
+.img_opacidad {
+    filter: opacity(70%);
+}
+.img_saturacion {
+    filter: saturate(280%);
+}
+.img-sepia {
+    filter: sepia(100%);
+}
+.video_size {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.v {
+}
+.animate__faster {
+}
+input[type=text],input[type=number]{
+	background-color: #CEC1C1;
+	color: white;
+	width: 50%;
+	margin: 10px;
+	padding: 10px;
+	font-size: 15pt;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	background-color: #CEC1C1;
+	width: 150px;
+	height: 40px;
+	font-size: 15pt;
+	font-weight: bold;
+	padding: 10px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+select, select option{
+	background-color: #FFC2AD;
+	color:#FEFEFE;
+	width: 50%;
+	margin: 10px;
+	padding: 10px;
+	font-size: 15pt;
+	box-sizing: border-box;
+}
+.parrafo_formulario, label{
+	font-size: 15pt;
+	color:#FFC2AD;
+}

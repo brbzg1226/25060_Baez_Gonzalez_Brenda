@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/alegreya-sc:n4:default;didact-gothic:n4:default;abril-fatface:n4:default.js" type="text/javascript"></script>
+</head>
+<body>
+	<header>
+	<h1>Formularios en HTML</h1>
+	</header>
+<nav>
+	 <ul>
+	<li><a href="index.html" target="_blank">Mi primera pagina</a></li>
+    <li><a href="tablas.html" target="_blank">Tablas</a>&nbsp;</li>
+    <li><a href="listas.htlm.html" target="_blank">Listas</a>&nbsp;</li>
+    <li><a href="Enlaces.html" target="_blank">Enlaces</a></li>
+	<li><a href="imagenes.html" target="_blank">Imagenes</a></li>
+	<li><a href="audio.html" target="_blank">Audio</a></li>
+	<li><a href="video.html" target="_blank">Vídeo</a></li>
+	<li><a href="formularios.html" target="_blank">Formularios</a></li>
+		 <li><a href="animate.html" target="_blank">Animate </a></li>
+		 <li><a href="flexbox.html" target="_blank">Flexbox</a></li>
+  </ul>
+	</nav>
+	<main>
+	<section>
+		<h2>&nbsp;</h2>
+		<h2>Fomulario simple</h2>
+<p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem necessitatibus nobis magnam eius labore exercitationem pariatur aliquam perspiciatis quos eligendi.</p>
+		<form action="action-page.html" method="get">
+		<label>Nombre:</label>
+			<input type="text" id="nombre1" name="nombre">
+			<br>
+		<label>Apellidos:</label>
+			<input type="text" id="apellidos1" name="apellidos">
+			<br><input type="submit" value="Enviar">
+		</form>
+	</section>
+	<section>
+	  <h2>Formulario usando radiobutton</h2>
+		<p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quos tenetur aliquam nihil assumenda corrupti ex est unde quas eaque?</p>
+		<form action="action-page.html" id="datos1" name="datos1" ></form>
+		<label for="nombre">Nombre:</label>
+        <input type="text" name="nombre2" id="nombre2">
+      	<br><label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos2" id="apellidos2">
+		<br><label>Genero:&nbsp;</label>
+		<input type="radio" name="femenino" id="genero1" value="genero">
+		<label for="radio2">Femanino&nbsp; </label>
+		<input type="radio" name="masculino" id="genero2" value="genero">
+		<label for="radio">Masculino&nbsp; </label>
+		<label for="genero">&nbsp; </label>
+        <br><input type="submit"  name="masculino" id="submit" formmethod="get" value="Enviar">
+
+	</section>
+<section>
+    <h2>Formulario dentro de una tabla</h2>
+		<p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam magnam provident nam porro, quo nisi laborum laudantium nobis quod omnis?</p>
+	<form action="action-page.html" method="get">
+	<table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="nombre">Nombre:</label></td>
+      <td><input type="text" id="nombre3" name="nombre"></td>
+    </tr>
+    <tr>
+      <td><label for="apellidos">Apellidos:</label></td>
+      <td><input type="text" id="apellidos3" name="apellidos"></td>
+    </tr>
+    <tr>
+      <td><label for="edad">Edad:</label></td>
+      <td><input type="number" id="edad" name="edad" min="1" max="99"></td>
+    </tr>
+    <tr>
+      <td><input type="submit" value="Enviar"></td>
+    </tr>
+  </tbody>
+</table>
+	</form>
+	</section>
+<section>
+  <h2>Formulario usando checkbox y otros</h2>
+  <p class="parrafo_formulario">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quos tenetur aliquam nihil assumenda corrupti ex est unde quas eaque?</p>
+	<form action="action-page.html" id="datos2" name="datos1" >
+
+  <label for="nombre3">Nombre:</label>
+  <input type="text" name="nombre" id="nombre4">
+<br>
+  <label for="apellidos3">Apellidos:</label>
+  <input type="text" name="apellidos" id="apellidos4">
+<br>
+  <label>Genero:</label>
+  <input type="radio" name="femenino" id="genero3" value="genero">
+  <label for="radio3">Femenino&nbsp; </label>
+  <input type="radio" name="masculino" id="genero4" value="genero2">
+  <label for="genero2">Masculino&nbsp; </label>
+		<br>
+		<label><br>
+		<input type="checkbox" name="musica favorita" value="rock" id="musica_favorita1">Rock
+		</label>
+		<br>
+		<label>
+		<input type="checkbox" name="musica favorita" value="jazz" id="musica_favorita2">Jazz
+		</label>
+		<br>
+		<label>
+		<input type="checkbox" name="musica favorita" value="pop" id="musica_favorita3">Pop
+		</label>
+		<br>
+		<label>
+		<input type="checkbox" name="musica favorita" value="alternativa" id="musica_favorita4">Alternativa
+		</label>
+		<br>
+		<label for="select">País de origen:</label>
+        <select name="pais" id="pais">
+			<option value="ar">Argentina</option>
+			<option value="br">Brasil</option>
+			<option value="ch">Chile</option>
+			<option value="fr">Francia</option>
+			<option value="mx">Mexico</option>
+					
+		</select>
+		<br>
+  		<input type="submit"  name="submit" id="submit2" formmethod="get" value="Enviar">
+		 </form>
+  	
+</section>
+	
+	</main>
+</body>
+</html>

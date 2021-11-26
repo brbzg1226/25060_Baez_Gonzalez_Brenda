@@ -1,0 +1,153 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header,nav,main,footer{
+	width: 100%;
+}
+header{
+	background-color: #F9DEDF;
+	color: #FEFEFE;
+	height: auto;
+	text-align: center;
+	padding: 20px;
+	font-size: 48px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #333;
+}
+
+nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding:30px;
+	font-size: 20px;
+}
+
+nav li a:hover {
+  background:#D8A696;
+  color: white;
+}
+
+    nav ul {
+      display: flex;
+		flex-wrap: wrap
+	
+    }
+main section{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.contenedor-flexible{
+	background-color: #F9DEDF;
+	display: flex;
+}
+
+.contenedor-flexible >div,.contenedor-flexible-1>div, .contenedor-flexible-2>div, .contenedor-flexible3>div, .contenedor-flexible-4>div, .contendor-flexible-5>div, .contenedor-flexible-6>div, .contenedor-flexible-7>div{
+	width: 400px;
+	height: 50px;
+	background-color: #FFC2AD;
+	margin: 10px;
+	padding: 30px;
+	font-size: 32px;
+	text-align: center;
+}
+
+.contenedor-flexible-1>div{
+	width: 30%;
+}
+
+.contenedor-flexible3>div{
+	width: 20%;
+}
+
+.contenedor-flexible-4>div{
+	
+	height: auto;
+}
+.contenedor-flexible-5>div{
+	width: 100px;
+	height: auto;
+}
+
+.contenedor-flexible-6>div{
+	width: 100px;
+}
+.contenedor-flexible-7>div{
+	width: 200px;
+	height: 200px;
+	
+}
+.contenedor-flexible-1{
+	background-color:#F9DEDF;
+	display: flex;
+	flex-direction:column-reverse;
+
+}
+
+.contenedor-flexible-2{
+	background-color: #F9DEDF;
+	display: flex;
+	flex-wrap:wrap;
+	
+}
+
+.contendor-flexible3{ 
+	background-color: #F9DEDF;
+	display: flex;
+	justify-content:space-between;
+}
+
+.contenedor-flexible-4{
+	background-color: #F9DEDF;
+	display: flex;
+	height: 400px;
+	align-items: stretch;
+	
+}
+
+.contenedor-flexible-5{
+	background-color: #F9DEDF;
+	display: flex;
+	height: 300px;
+	align-items: baseline;
+}
+
+.contendor-flexible-6{
+	background-color: #F9DEDF;
+	display: flex;
+	height: 800px;
+	flex-wrap: wrap;
+	align-content: space-around;
+	
+}
+
+.contenedor-flexible-7{
+	background-color:#F9DEDF;
+	display: flex;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+
+
+  
